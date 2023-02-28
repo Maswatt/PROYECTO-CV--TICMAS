@@ -1,0 +1,43 @@
+ * {
+
+color: darkorange;
+text-align: justify;
+font-weight: lighter;
+}
+ul, li {
+ 
+  color: blue;
+  
+
+}
+
+#OUF {
+
+  font-size: medium;
+  color: chartreuse;
+  font-size: 40px;
+}
+
+.Reservado {
+
+  border-style: groove; 
+  border-right:  20px;
+
+color: cornflowerblue;
+
+
+
+}
+
+body {
+
+  background-color: firebrick;
+}
+@media only screen and (max-width: 600px;)
+{
+
+  body {
+    background-color: coral;
+}
+
+}

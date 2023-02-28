@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(206,89,55,0);
+}
+
+h3 {
+    width: 300px;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+
+body {
+
+    background-image: url(file:///C:/Users/Maswatt/Desktop/papel-arrugado-textura-dorada-scaled.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+p {
+    width: 600px;
+    font-weight: bold;
+     font-size: larger;
+    padding-right: 100px;
+    margin-right: 100px;
+}
+
+* {
+
+    word-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+
+section {
+    background-color: darkseagreen;
+    border-style: double; 
+    border-color: cadetblue;
+    border-width: medium;
+    width: fit-content;
+margin: 100px;
+padding: 100px;
+padding-bottom: 250px;
+text-align: right;
+position: fixed;
+top: 50px;
+left: 600px;
+}
+
+#bottom {
+
+    text-align: center;
+}
