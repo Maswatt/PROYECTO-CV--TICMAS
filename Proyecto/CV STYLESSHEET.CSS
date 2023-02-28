@@ -1,0 +1,137 @@
+
+* {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body {
+
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-geometrico-abstracto-estructura-metalica_52683-59421.jpg?w=2000);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    [class*="col-info"] {
+        width: min-content;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    
+    [class*="col-data"] {
+        width: min-content;
+    }
+  }
+
+#columna2 {
+
+  
+    background-color:dimgray;
+   /**  width: 400px;*/
+    color: aliceblue;
+}
+
+
+#informacion {
+/** width: 732px;*/
+    background-image: url(https://i.pinimg.com/originals/a9/7c/1d/a97c1db28eae8944c50aa2f3f587e8ed.jpg);
+   
+}
+
+
+
+#historia {
+
+    border-bottom: dotted;
+}
+
+#formacion {
+
+    border-bottom: dotted;
+}
+
+#primero {
+
+    border-bottom: dotted;
+}
+
+
+nav {
+
+    
+    text-align: center;
+    display: block;
+    padding: 8px;
+    overflow: hidden;
+}
+
+
+a {
+    color: aliceblue;
+    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+     a:hover:not(.active) {
+        background-color:coral; 
+    }
+
+  form {
+    font-family: inherit;
+    font-size: 100%;
+
+  }      
+
+  input {
+padding-bottom: 20px;
+padding-top: 20px;
+    width : 200px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  label {
+    width : 100px;
+    padding-bottom: 20px;
+padding-top: 20px;
+    }
+
+    #envie {
+        font-weight: bold;
+    }
+
+    #tituloprimero {
+
+        color: #444444;
+
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 
+1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE,
+ 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 
+ 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE,
+  7px 6px 1px #CCCCCC;
+    }
+
+    #contenido {
+
+        border: 4px outset #83C7BD;
+      
+      padding-right: 0px;
+    
+    }
+
+    #ocultar {
+
+        display: none;
+    }
+
+    /**
+    Hola Daniel! Aca va el proyecto, quedò medio medio ya que anduve complicado con 
+    el laburo y los tiempos. Igualmente me encantaron los videos y los podcasts, 
+    explicaste todo bien claro y conciso!!*/
